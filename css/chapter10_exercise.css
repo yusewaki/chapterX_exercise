@@ -65,3 +65,27 @@ main{
 footer{
   background-color: #aaaaaa;
 }
+
+
+
+
+/* メディアクエリ */
+@media screen and (max-width:768px){
+  main{
+    width: 100%;
+    display: block;
+  }
+
+  .box{
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+
+  .box:last-child{
+    margin: 0 auto;
+  }
+
+  .img{
+    background-position: bottom;
+  }
+}
